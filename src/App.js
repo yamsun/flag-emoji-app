@@ -37,7 +37,10 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>flag emojis</h1>
+      <h1>Country & Flag</h1>
+      <h4>
+        Type the flag emoji in the box below or click on the flags displayed
+      </h4>
 
       <input style={{ height: "1.7rem" }} onChange={inputHandler} />
 
@@ -54,7 +57,7 @@ export default function App() {
           </span>
         );
       })}
-      <h5> click on flag icon or enter anyone out of these in the box </h5>
+      <h5> click on these flag icons </h5>
     </div>
   );
 }
